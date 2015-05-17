@@ -419,19 +419,19 @@ IND,Liberty,80th St-Hudson St,40.679371,-73.858992,A,,,,,,,,,,,Stair,YES,,YES,FU
 IND,Liberty,80th St-Hudson St,40.679371,-73.858992,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,80th St,Liberty Ave,NE,40.679498,-73.858049
 IND,Liberty,88th St-Boyd Av,40.679843,-73.85147,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,88th St,Liberty Ave,SE,40.679828,-73.850401
 IND,Liberty,88th St-Boyd Av,40.679843,-73.85147,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,88th St,Liberty Ave,NE,40.679973,-73.850413
-IND,Liberty,Rockaway Blvd,40.680429,-73.843853,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,94th St,Liberty Ave,SW,40.680158,-73.845131
-IND,Liberty,Rockaway Blvd,40.680429,-73.843853,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,94th St,Liberty Ave,NW,40.680305,-73.845159
+IND,Liberty,Rockaway Blvd,40.680429,-73.843853,A,AS,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,94th St,Liberty Ave,SW,40.680158,-73.845131
+IND,Liberty,Rockaway Blvd,40.680429,-73.843853,A,AS,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,94th St,Liberty Ave,NW,40.680305,-73.845159
 IND,Liberty,104th St-Oxford Av,40.681711,-73.837683,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,104th St,Liberty Ave,SE,40.681994,-73.836742
 IND,Liberty,104th St-Oxford Av,40.681711,-73.837683,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,104th St,Liberty Ave,NE,40.68212,-73.836836
 IND,Liberty,111th St-Greenwood Av,40.684331,-73.832163,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,111th St,Liberty Ave,SE,40.684732,-73.830898
 IND,Liberty,111th St-Greenwood Av,40.684331,-73.832163,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,111th St,Liberty Ave,NE,40.684874,-73.830943
 IND,Liberty,Lefferts Blvd,40.685951,-73.825798,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Lefferts Blvd,Liberty Ave,SW,40.686103,-73.824314
 IND,Liberty,Lefferts Blvd,40.685951,-73.825798,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Lefferts Blvd,Liberty Ave,NW,40.686234,-73.824378
-IND,Rockaway,Aqueduct-North Conduit Av,40.668234,-73.834058,A,,,,,,,,,,,Door,YES,,YES,FULL,,FALSE,,TRUE,Cohancy St,North Conduit Ave,NE,40.667018,-73.83348
-IND,Rockaway,Howard Beach,40.660476,-73.830301,A,,,,,,,,,,,Elevator,YES,,YES,FULL,,TRUE,,TRUE,103rd St,159th Ave,NE,40.660465,-73.830518
-IND,Rockaway,Howard Beach,40.660476,-73.830301,A,,,,,,,,,,,Elevator,YES,,YES,FULL,,TRUE,,TRUE,103rd St,159th Ave,NE,40.660486,-73.830453
-IND,Rockaway,Howard Beach,40.660476,-73.830301,A,,,,,,,,,,,Stair,YES,,YES,FULL,,TRUE,,TRUE,103rd St,159th Ave,SE,40.660372,-73.830369
-IND,Rockaway,Broad Channel,40.608382,-73.815925,A,H,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,West Rd,Noel Rd,NE,40.608007,-73.815967
+IND,Rockaway,Aqueduct-North Conduit Av,40.668234,-73.834058,AS,,,,,,,,,,,Door,YES,,YES,FULL,,FALSE,,TRUE,Cohancy St,North Conduit Ave,NE,40.667018,-73.83348
+IND,Rockaway,Howard Beach,40.660476,-73.830301,AS,,,,,,,,,,,Elevator,YES,,YES,FULL,,TRUE,,TRUE,103rd St,159th Ave,NE,40.660465,-73.830518
+IND,Rockaway,Howard Beach,40.660476,-73.830301,AS,,,,,,,,,,,Elevator,YES,,YES,FULL,,TRUE,,TRUE,103rd St,159th Ave,NE,40.660486,-73.830453
+IND,Rockaway,Howard Beach,40.660476,-73.830301,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,TRUE,,TRUE,103rd St,159th Ave,SE,40.660372,-73.830369
+IND,Rockaway,Broad Channel,40.608382,-73.815925,AS,H,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,West Rd,Noel Rd,NE,40.608007,-73.815967
 IND,Rockaway,Beach 90th St,40.588034,-73.813641,H,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 89th St,Rockaway Frwy,NW,40.58808,-73.813907
 IND,Rockaway,Beach 90th St,40.588034,-73.813641,H,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 89th St,Rockaway Frwy,SW,40.587929,-73.813755
 IND,Rockaway,Beach 90th St,40.588034,-73.813641,H,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 90th St,Rockaway Frwy,NE,40.587999,-73.814117
@@ -444,26 +444,26 @@ IND,Rockaway,Beach 105th St,40.583209,-73.827559,H,,,,,,,,,,,Stair,YES,,YES,FULL
 IND,Rockaway,Beach 105th St,40.583209,-73.827559,H,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 106th St,Rockaway Frwy,SW,40.583248,-73.827163
 IND,Rockaway,Beach 105th St,40.583209,-73.827559,H,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 106th St,Rockaway Frwy,NW,40.583435,-73.827232
 IND,Rockaway,Rockaway Park-Beach 116th,40.580903,-73.835592,H,,,,,,,,,,,Door,YES,,YES,FULL,,TRUE,,TRUE,Beach 116th St,Wainwright Ct,NE,40.58051,-73.837418
-IND,Rockaway,Beach 67th St,40.590927,-73.796924,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 67th St,Rockaway Frwy,NW,40.590744,-73.797789
-IND,Rockaway,Beach 67th St,40.590927,-73.796924,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 67th St,Rockaway Frwy,SW,40.590901,-73.796609
-IND,Rockaway,Beach 67th St,40.590927,-73.796924,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 67th St,Rockaway Frwy,NW,40.591123,-73.79646
-IND,Rockaway,Beach 67th St,40.590927,-73.796924,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 67th St,Rockaway Frwy,SW,40.590951,-73.796176
-IND,Rockaway,Beach 60th St,40.592374,-73.788522,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 60th St,Rockaway Frwy,SE,40.592269,-73.789578
-IND,Rockaway,Beach 60th St,40.592374,-73.788522,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 59th Sr,Rockaway Frwy,NW,40.59249,-73.789161
-IND,Rockaway,Beach 60th St,40.592374,-73.788522,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 59th Sr,Rockaway Frwy,SW,40.592292,-73.789153
-IND,Rockaway,Beach 60th St,40.592374,-73.788522,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 60th St,Rockaway Frwy,NE,40.592478,-73.78941
-IND,Rockaway,Beach 44th St,40.592943,-73.776013,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 44th St,Edgemere Ave,NW,40.593106,-73.775743
-IND,Rockaway,Beach 44th St,40.592943,-73.776013,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 45th St,Edgemere Ave,SW,40.59286,-73.776109
-IND,Rockaway,Beach 44th St,40.592943,-73.776013,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 45th St,Edgemere Ave,NE,40.593079,-73.775985
-IND,Rockaway,Beach 44th St,40.592943,-73.776013,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 44th St,Edgemere Ave,SW,40.592897,-73.775715
-IND,Rockaway,Beach 36th St,40.595398,-73.768175,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 35th,Rockaway Frwy,NW,40.595617,-73.768032
-IND,Rockaway,Beach 36th St,40.595398,-73.768175,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 36th,Edgemere Ave,SE,40.595297,-73.768206
-IND,Rockaway,Beach 36th St,40.595398,-73.768175,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 36th,Edgemere Ave,NE,40.595445,-73.768313
-IND,Rockaway,Beach 36th St,40.595398,-73.768175,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 35th,Rockaway Frwy,SW,40.595469,-73.767919
-IND,Rockaway,Beach 25th St,40.600066,-73.761353,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 25th St,Rockaway Frwy,NW,40.599708,-73.761959
-IND,Rockaway,Beach 25th St,40.600066,-73.761353,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 25th St,Rockaway Frwy,SW,40.599427,-73.761807
-IND,Rockaway,Beach 25th St,40.600066,-73.761353,A,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 25th St,Rockaway Frwy,SW,40.59967,-73.761596
-IND,Rockaway,Far Rockaway-Mott Av,40.603995,-73.755405,A,,,,,,,,,,,Door,YES,,YES,FULL,,FALSE,,TRUE,Beach 22nd St,Mott Ave,SW,40.604657,-73.754178
+IND,Rockaway,Beach 67th St,40.590927,-73.796924,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 67th St,Rockaway Frwy,NW,40.590744,-73.797789
+IND,Rockaway,Beach 67th St,40.590927,-73.796924,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 67th St,Rockaway Frwy,SW,40.590901,-73.796609
+IND,Rockaway,Beach 67th St,40.590927,-73.796924,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 67th St,Rockaway Frwy,NW,40.591123,-73.79646
+IND,Rockaway,Beach 67th St,40.590927,-73.796924,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 67th St,Rockaway Frwy,SW,40.590951,-73.796176
+IND,Rockaway,Beach 60th St,40.592374,-73.788522,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 60th St,Rockaway Frwy,SE,40.592269,-73.789578
+IND,Rockaway,Beach 60th St,40.592374,-73.788522,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 59th Sr,Rockaway Frwy,NW,40.59249,-73.789161
+IND,Rockaway,Beach 60th St,40.592374,-73.788522,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 59th Sr,Rockaway Frwy,SW,40.592292,-73.789153
+IND,Rockaway,Beach 60th St,40.592374,-73.788522,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 60th St,Rockaway Frwy,NE,40.592478,-73.78941
+IND,Rockaway,Beach 44th St,40.592943,-73.776013,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 44th St,Edgemere Ave,NW,40.593106,-73.775743
+IND,Rockaway,Beach 44th St,40.592943,-73.776013,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 45th St,Edgemere Ave,SW,40.59286,-73.776109
+IND,Rockaway,Beach 44th St,40.592943,-73.776013,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 45th St,Edgemere Ave,NE,40.593079,-73.775985
+IND,Rockaway,Beach 44th St,40.592943,-73.776013,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 44th St,Edgemere Ave,SW,40.592897,-73.775715
+IND,Rockaway,Beach 36th St,40.595398,-73.768175,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 35th,Rockaway Frwy,NW,40.595617,-73.768032
+IND,Rockaway,Beach 36th St,40.595398,-73.768175,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 36th,Edgemere Ave,SE,40.595297,-73.768206
+IND,Rockaway,Beach 36th St,40.595398,-73.768175,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 36th,Edgemere Ave,NE,40.595445,-73.768313
+IND,Rockaway,Beach 36th St,40.595398,-73.768175,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 35th,Rockaway Frwy,SW,40.595469,-73.767919
+IND,Rockaway,Beach 25th St,40.600066,-73.761353,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 25th St,Rockaway Frwy,NW,40.599708,-73.761959
+IND,Rockaway,Beach 25th St,40.600066,-73.761353,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 25th St,Rockaway Frwy,SW,40.599427,-73.761807
+IND,Rockaway,Beach 25th St,40.600066,-73.761353,AS,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Beach 25th St,Rockaway Frwy,SW,40.59967,-73.761596
+IND,Rockaway,Far Rockaway-Mott Av,40.603995,-73.755405,AS,,,,,,,,,,,Door,YES,,YES,FULL,,FALSE,,TRUE,Beach 22nd St,Mott Ave,SW,40.604657,-73.754178
 IND,Concourse,Norwood-205th St,40.874811,-73.878855,D,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Bainbridge Ave,205th St,SE,40.874902,-73.879267
 IND,Concourse,Norwood-205th St,40.874811,-73.878855,D,,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Bainbridge Ave,205th St,NE,40.875087,-73.87961
 IND,Concourse,Bedford Park Blvd,40.873244,-73.887138,B,D,,,,,,,,,,Stair,YES,,YES,FULL,,FALSE,,TRUE,Grand Concourse,Bedofrd Park Blvd,NE,40.872135,-73.887459
@@ -1361,14 +1361,14 @@ IND,Fulton,Rockaway Av,40.67834,-73.911946,A,C,,,,,,,,,,Stair,YES,,YES,NONE,,FAL
 IND,Fulton,Rockaway Av,40.67834,-73.911946,A,C,,,,,,,,,,Stair,YES,,YES,NONE,,FALSE,,TRUE,Rockaway Ave,Fulton St,NW,40.67846,-73.910971
 IND,Liberty,80th St-Hudson St,40.679371,-73.858992,A,,,,,,,,,,,Stair,YES,,YES,NONE,,FALSE,,TRUE,77th St,Liberty Ave,SE,40.679215,-73.860291
 IND,Liberty,80th St-Hudson St,40.679371,-73.858992,A,,,,,,,,,,,Stair,YES,,YES,NONE,,FALSE,,TRUE,77th St,Liberty Ave,NE,40.679361,-73.860284
-IND,Liberty,Rockaway Blvd,40.680429,-73.843853,A,,,,,,,,,,,Stair,YES,,YES,NONE,,FALSE,,TRUE,97th St,Liberty Ave,NW,40.680611,-73.842537
-IND,Liberty,Rockaway Blvd,40.680429,-73.843853,A,,,,,,,,,,,Stair,YES,,YES,NONE,,FALSE,,TRUE,97th St,Liberty Ave,SW,40.680774,-73.842558
+IND,Liberty,Rockaway Blvd,40.680429,-73.843853,A,AS,,,,,,,,,,Stair,YES,,YES,NONE,,FALSE,,TRUE,97th St,Liberty Ave,NW,40.680611,-73.842537
+IND,Liberty,Rockaway Blvd,40.680429,-73.843853,A,AS,,,,,,,,,,Stair,YES,,YES,NONE,,FALSE,,TRUE,97th St,Liberty Ave,SW,40.680774,-73.842558
 IND,Liberty,111th St-Greenwood Av,40.684331,-73.832163,A,,,,,,,,,,,Stair,YES,,YES,NONE,,FALSE,,TRUE,109th St,Liberty Ave,SE,40.683972,-73.832816
 IND,Liberty,111th St-Greenwood Av,40.684331,-73.832163,A,,,,,,,,,,,Stair,YES,,YES,NONE,,FALSE,,TRUE,109th St,Liberty Ave,NW,40.684111,-73.832889
 IND,Liberty,Lefferts Blvd,40.685951,-73.825798,A,,,,,,,,,,,Stair,YES,,YES,NONE,,FALSE,,TRUE,116th St,Liberty Ave,SW,40.68572,-73.827092
 IND,Liberty,Lefferts Blvd,40.685951,-73.825798,A,,,,,,,,,,,Stair,YES,,YES,NONE,,FALSE,,TRUE,116th St,Liberty Ave,NW,40.685868,-73.827107
-IND,Rockaway,Aqueduct-North Conduit Av,40.668234,-73.834058,A,,,,,,,,,,,Stair,NO,Yes,NO,NONE,,FALSE,,TRUE,99th Pl,Hawtree St,NE,40.669339,-73.834721
-IND,Rockaway,Howard Beach,40.660476,-73.830301,A,,,,,,,,,,,Stair,YES,,NO,NONE,,TRUE,,TRUE,103rd St,159th Ave,SE,40.66016,-73.830372
+IND,Rockaway,Aqueduct-North Conduit Av,40.668234,-73.834058,AS,,,,,,,,,,,Stair,NO,Yes,NO,NONE,,FALSE,,TRUE,99th Pl,Hawtree St,NE,40.669339,-73.834721
+IND,Rockaway,Howard Beach,40.660476,-73.830301,AS,,,,,,,,,,,Stair,YES,,NO,NONE,,TRUE,,TRUE,103rd St,159th Ave,SE,40.66016,-73.830372
 IND,Concourse,Norwood-205th St,40.874811,-73.878855,D,,,,,,,,,,,Stair,YES,,YES,NONE,,FALSE,,TRUE,Perry Ave,205th St,SE,40.874021,-73.877501
 IND,Concourse,Norwood-205th St,40.874811,-73.878855,D,,,,,,,,,,,Stair,YES,,YES,NONE,,FALSE,,TRUE,Perry Ave,205th St,NW,40.874262,-73.877533
 IND,Concourse,Bedford Park Blvd,40.873244,-73.887138,B,D,,,,,,,,,,Stair,YES,,YES,NONE,,FALSE,,TRUE,Grand Concourse,203rd St,NW,40.874084,-73.887112
@@ -1789,7 +1789,7 @@ IRT,Dyre Av,Baychester Av,40.878663,-73.838591,5,,,,,,,,,,,Door,NO,Yes,NO,NONE,,
 IRT,Dyre Av,Gun Hill Rd,40.869526,-73.846384,5,,,,,,,,,,,Easement,NO,Yes,NO,NONE,,FALSE,,TRUE,,,,40.870039,-73.845724
 IRT,Flushing,Vernon Blvd-Jackson Av,40.742626,-73.953581,7,,,,,,,,,,,Stair,NO,Yes,NO,NONE,,FALSE,,FALSE,Jackson Ave,50th Ave,SE,40.742351,-73.952723
 IRT,Flushing,Vernon Blvd-Jackson Av,40.742626,-73.953581,7,,,,,,,,,,,Stair,NO,Yes,NO,NONE,,FALSE,,FALSE,Jackson Ave,50th Ave,SW,40.742432,-73.953156
-IND,Rockaway,Aqueduct Racetrack,40.672131,-73.835812,A,,,,,,,,,,,Ramp,NO,,NO,NONE,,FALSE,,FALSE,,,,40.672208,-73.834589
+IND,Rockaway,Aqueduct Racetrack,40.672131,-73.835812,AS,,,,,,,,,,,Ramp,NO,,NO,NONE,,FALSE,,FALSE,,,,40.672208,-73.834589
 BMT,Broadway,Canal St (UL),40.719527,-74.001775,J,N,Q,R,Z,6,,,,,,Stair,YES,,YES,PART,6am-9:40pm everyday,FALSE,,TRUE,Broadway,Canal St,NE,40.719498,-74.001606
 BMT,Broadway,Canal St (UL),40.719527,-74.001775,J,N,Q,R,Z,6,,,,,,Stair,YES,,YES,PART,6am-9:40pm everyday,FALSE,,TRUE,Broadway,Canal St,SE,40.719218,-74.00185
 BMT,Broadway,Canal St (UL),40.719527,-74.001775,J,N,Q,R,Z,6,,,,,,Stair,YES,,YES,PART,6am-9:40pm everyday,FALSE,,TRUE,Broadway,Canal St,SE,40.719166,-74.001774
@@ -1835,7 +1835,7 @@ IRT,Flushing,Flushing-Main St,40.7596,-73.83003,7,,,,,,,,,,,Escalator,YES,,YES,P
 IRT,Flushing,Flushing-Main St,40.7596,-73.83003,7,,,,,,,,,,,Escalator,YES,,YES,PART,6am-2pm everyday,TRUE,,TRUE,Main St,Roosevelt Ave,NE,40.760048,-73.828444
 IRT,Flushing,Flushing-Main St,40.7596,-73.83003,7,,,,,,,,,,,Escalator,YES,,YES,PART,6am-2pm everyday,TRUE,,TRUE,Main St,Roosevelt Ave,SE,40.759895,-73.828573
 IRT,Flushing,Flushing-Main St,40.7596,-73.83003,7,,,,,,,,,,,Stair,YES,,YES,PART,6am-2pm everyday,TRUE,,TRUE,Main St,Roosevelt Ave,SE,40.759946,-73.828414
-IRT,Jerome,Yankee Stadium-161st St,40.827994,-73.925831,B,FD,4,,,,,,,,,Stair,YES,,NO,Spc Ev,Used on Game Days,TRUE,,TRUE,River Ave,161st St,SW,40.827605,-73.926282
+IRT,Jerome,Yankee Stadium-161st St,40.827994,-73.925831,B,D,4,,,,,,,,,Stair,YES,,NO,Spc Ev,Used on Game Days,TRUE,,TRUE,River Ave,161st St,SW,40.827605,-73.926282
 IRT,Jerome,Yankee Stadium-161st St,40.827994,-73.925831,B,D,4,,,,,,,,,Stair,YES,,NO,Spc Ev,Used on Game Days,TRUE,,TRUE,River Ave,161st St,SW,40.827529,-73.926322
 IRT,Jerome,Yankee Stadium-161st St,40.827994,-73.925831,B,D,4,,,,,,,,,Stair,YES,,NO,Spc Ev,Used on Game Days,TRUE,,TRUE,River Ave,161st St,SW,40.827461,-73.926362
 IRT,Jerome,Yankee Stadium-161st St,40.827994,-73.925831,B,D,4,,,,,,,,,Stair,YES,,NO,Spc Ev,Used on Game Days,TRUE,,TRUE,River Ave,161st St,SW,40.827399,-73.926394
