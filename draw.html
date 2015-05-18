@@ -19,10 +19,17 @@
 
     var svgContainer = d3.select("body").append("svg")
       .attr("width", 750).attr("height", 750);
-    var circle = svgContainer.append("circle")
-      .attr("cx", 30)
-      .attr("cy", 30)
-      .attr("r", 20);
+    for (var obj in dataset){
+      svgContainer.append("circle")
+      .attr("cx", obj.lat)
+      .attr("cy", obj.lon)
+      .attr("r", 2);
+    }
+
+    // var circle = svgContainer.append("circle")
+    //   .attr("cx", 30)
+    //   .attr("cy", 30)
+    //   .attr("r", 20);
   </script>
 
 </body>
