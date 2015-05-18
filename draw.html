@@ -13,7 +13,7 @@
   <script type="text/javascript">
     var dataset = []
     d3.csv("output.csv", function(data) {
-       dataset = data.map(function(d) { return [ +d["max_i"], +d["min_i"] ]; });
+       dataset = data.map(function(d) { return [ +d["name"], +d["lat"], +d["lon"] ]; });
        console.log(dataset)
     });
     var svgContainer = d3.select("body").append("svg")
