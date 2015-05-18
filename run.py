@@ -1,5 +1,6 @@
 import csv, math
 
+
 a = 0 # bullshit variable for no reason, sorry
 
 # the point class. 
@@ -141,19 +142,58 @@ for line in linesList:
 	else:
 		print line
 
+lats = []
+lons = []
+for point in allLines['1'].points:
+	lats.append(point.getLocation()[0])
+	lons.append(point.getLocation()[1])
 
+coordinates = {}
+for line in allLines:
+	coordinates[line] = [[],[]]
+	for point in allLines[line].points:
+		coordinates[line][0].append(point.getLocation()[0])
+		coordinates[line][1].append(point.getLocation()[1])
+print coordinates['1'][0]
+print coordinates['1'][1]
+
+import matplotlib.pyplot as plt
+
+plt.plot(coordinates['1' ][1], coordinates['1' ][0], mfc='#EE352E', ms=2, mew=0)
+plt.plot(coordinates['2' ][1], coordinates['2' ][0], mfc='#EE352E', ms=2, mew=0)
+plt.plot(coordinates['3' ][1], coordinates['3' ][0], mfc='#EE352E', ms=2, mew=0)
+plt.plot(coordinates['4' ][1], coordinates['4' ][0], mfc='#00933C', ms=2, mew=0)
+plt.plot(coordinates['5' ][1], coordinates['5' ][0], mfc='#00933C', ms=2, mew=0)
+plt.plot(coordinates['6' ][1], coordinates['6' ][0], mfc='#00933C', ms=2, mew=0)
+plt.plot(coordinates['7' ][1], coordinates['7' ][0], mfc='#B933AD', ms=2, mew=0)
+plt.plot(coordinates['A' ][1], coordinates['A' ][0], mfc='#2850AD', ms=2, mew=0)
+plt.plot(coordinates['B' ][1], coordinates['B' ][0], mfc='#FF6319', ms=2, mew=0)
+plt.plot(coordinates['C' ][1], coordinates['C' ][0], mfc='#2850AD', ms=2, mew=0)
+plt.plot(coordinates['D' ][1], coordinates['D' ][0], mfc='#FF6319', ms=2, mew=0)
+plt.plot(coordinates['E' ][1], coordinates['E' ][0], mfc='#2850AD', ms=2, mew=0)
+plt.plot(coordinates['F' ][1], coordinates['F' ][0], mfc='#FF6319', ms=2, mew=0)
+plt.plot(coordinates['G' ][1], coordinates['G' ][0], mfc='#6CBE45', ms=2, mew=0)
+plt.plot(coordinates['H' ][1], coordinates['H' ][0], mfc='r', ms=2, mew=0)
+plt.plot(coordinates['J' ][1], coordinates['J' ][0], mfc='#996633', ms=2, mew=0)
+plt.plot(coordinates['GS'][1], coordinates['GS'][0], mfc='r', ms=2, mew=0)
+plt.plot(coordinates['FS'][1], coordinates['FS'][0], mfc='r', ms=2, mew=0)
+plt.axis([-74.13, -73.7, 40.55, 40.9])
+# plt.axis([-100, 100, -100, 100])
+plt.show()
+
+#MY DATA IS SHIT, FUCK
 
 # for i in range(len(allLines['1'].points)):
 	# print allLines['1'].points[i].getLocation(), '\t', allLines['1'].points[i].getStationName()
 	# print point.getStationName() , '\t' , point.getLocation()[0], '\t', point.getLocation()[1], '\t'
 
-with open('output.csv', 'wb') as csvfile:
-	spamwriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-	spamwriter.writerow(['name', 'lat', 'lon'])
-	# print allLines
-	for point in allLines['1'].points:
-		# spamwriter.writerow(['name','lat','lon'])
-		spamwriter.writerow([ point.getStationName(), point.getLocation()[0], point.getLocation()[1] ])
+# with open('output.csv', 'wb') as csvfile:
+# 	spamwriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+# 	spamwriter.writerow(['name', 'lat', 'lon'])
+# 	# print allLines
+# 	for point in allLines['1'].points:
+# 		# spamwriter.writerow(['name','lat','lon'])
+# 		spamwriter.writerow([ point.getStationName(), point.getLocation()[0], point.getLocation()[1] ])
 
 
 
