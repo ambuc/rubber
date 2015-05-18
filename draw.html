@@ -11,26 +11,7 @@
 
 
   <script type="text/javascript">
-    var dataset = []
-    d3.csv("output.csv", function(data) {
-      dataset = data
-      console.log(dataset)
-    });
 
-    var svgContainer = d3.select("body").append("svg")
-      .attr("width", 750).attr("height", 750);
-    for (var obj in dataset){
-      svgContainer.append("circle")
-      .attr("cx", obj.lat)
-      .attr("cy", obj.lon)
-      .attr("r", 2)
-      .attr("transform","translate(-40.7, 74)");
-    }
-
-    // var circle = svgContainer.append("circle")
-    //   .attr("cx", 30)
-    //   .attr("cy", 30)
-    //   .attr("r", 20);
   </script>
 
 </body>
