@@ -1,13 +1,11 @@
 import csv, math
-from collections import OrderedDict
 
 a = 0 # bullshit variable for no reason, sorry
 
 # the point class. 
 # each point is a station with routes that pass through it.
 class Point:
-	def __init__(self, division, line, station_name, station_latitude,\
-	 station_longitude):
+	def __init__(self, division, line, station_name, station_latitude, station_longitude):
 		self.division = division
 		self.line = line
 		self.station_name = station_name
@@ -30,9 +28,7 @@ class Point:
 		return self.station_latitude==other.station_latitude\
 			and self.station_longitude==other.station_longitude
 	def __hash__(self):
-		return hash(\
-			('lat', self.station_latitude, 'long', self.station_longitude)\
-		)
+		return hash( ('lat', self.station_latitude, 'long', self.station_longitude) )
 
 # the line class. 
 # each line is a letter and has a number of points it goes through
@@ -81,8 +77,6 @@ for line in linesList:
 for point in data: # the completists' approach to assembling lineslist.
 	for route in point.getRoutes():
 		byLine[route].append(point)
-# for point in byLine['7']:
-# 	print point.getStationName()
 
 def makeLinkedLine(name, firstStation):
 	currentLine = Line(name, firstStation)
@@ -114,6 +108,7 @@ def makeLinkedLine(name, firstStation):
 
 
 allLines = {}
+
 startingPoints = {
 	  '1' : 'South Ferry'
 	, '2' : 'Flatbush Av-Brooklyn College'
@@ -144,12 +139,23 @@ for line in linesList:
 	if line in startingPoints:
 		allLines[line] = makeLinkedLine(line, startingPoints[line])
 	else:
-		# line = line
 		print line
 
 
 
-# for point in allLines['J'].points:
-	# print point.getStationName()
+# for i in range(len(allLines['1'].points)):
+	# print allLines['1'].points[i].getLocation(), '\t', allLines['1'].points[i].getStationName()
 	# print point.getStationName() , '\t' , point.getLocation()[0], '\t', point.getLocation()[1], '\t'
+
+with open('output.csv', 'wb') as csvfile:
+	spamwriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+	spamwriter.writerow(['name', 'lat', 'lon'])
+	# print allLines
+	for point in allLines['1'].points:
+		# spamwriter.writerow(['name','lat','lon'])
+		spamwriter.writerow([ point.getStationName(), point.getLocation()[0], point.getLocation()[1] ])
+
+
+
+
 
