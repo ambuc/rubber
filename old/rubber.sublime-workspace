@@ -231,18 +231,90 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "run.py",
+			"settings":
+			{
+				"buffer_size": 6965,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "output.csv",
+			"settings":
+			{
+				"buffer_size": 1497,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "draw.html",
+			"settings":
+			{
+				"buffer_size": 409,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "StationEntrances.csv",
+			"settings":
+			{
+				"buffer_size": 263672,
+				"line_ending": "Windows"
+			}
+		}
 	],
-	"build_system": "",
+	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
 	{
 		"height": 67.0,
-		"last_filter": "",
+		"last_filter": "instal",
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package contro",
+				"Package Control: List Packages"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package",
+				"Package Control: Add Repository"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
 			[
 				"Package Control: install",
 				"Package Control: Install Package"
@@ -264,14 +336,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
-				"package",
-				"Preferences: Browse Packages"
-			],
-			[
 				"insta",
 				"Package Control: Install Package"
 			],
@@ -281,10 +345,6 @@
 			],
 			[
 				"inst",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -304,13 +364,14 @@
 				"Set Syntax: MinimalFortran"
 			]
 		],
-		"width": 485.0
+		"width": 449.0
 	},
 	"console":
 	{
 		"height": 146.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -328,9 +389,13 @@
 	],
 	"file_history":
 	[
+		"/Users/jamesbuckland/Library/Application Support/Sublime Text 3/Packages/User/pythonw.sublime-build",
+		"/Users/jamesbuckland/Library/Application Support/Sublime Text 3/Packages/User/untitled.sublime-build",
+		"/Users/jamesbuckland/Desktop/rubber/rubber.sublime-project",
+		"/Users/jamesbuckland/Desktop/rubber/run.py",
+		"/Users/jamesbuckland/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/jamesbuckland/Desktop/fart.py",
 		"/Users/jamesbuckland/Desktop/rubber/StationEntrances.csv",
-		"/Users/jamesbuckland/Desktop/rubber/run.py",
 		"/Users/jamesbuckland/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/jamesbuckland/Desktop/latlong/run.py",
 		"/Users/jamesbuckland/Desktop/latlong/sampleoutput",
@@ -451,15 +516,11 @@
 		"/Users/jamesbuckland/Dropbox/code/con1d/c/shear.c",
 		"/Users/jamesbuckland/Dropbox/code/con1d/c/shear.h",
 		"/Users/jamesbuckland/Dropbox/code/con1d/c/simul.c",
-		"/Users/jamesbuckland/Dropbox/code/con1d/c/simul.h",
-		"/Users/jamesbuckland/Dropbox/code/con1d/c/tapering.c",
-		"/Users/jamesbuckland/Dropbox/code/con1d/c/tapering.h",
-		"/Users/jamesbuckland/Dropbox/code/con1d/c/user.c",
-		"/Users/jamesbuckland/Dropbox/code/con1d/c/user.h"
+		"/Users/jamesbuckland/Dropbox/code/con1d/c/simul.h"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -474,6 +535,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"flushing",
+			"flushing main",
+			"court sq",
+			"church av",
+			"times square",
+			"42nd st",
+			"59th st-col",
+			"59th st",
+			"59th st-columbus circle",
+			"59th st-col",
+			"59th st",
 			"8 Avenue,14th St",
 			"8 Avenue",
 			",L,",
@@ -590,18 +662,7 @@
 			"\"FIELD10\"",
 			"\"FIELD9\"",
 			"\"FIELD8\"",
-			"\"FIELD7\"",
-			"\"FIELD6\"",
-			"\"FIELD5\"",
-			"\"FIELD4\"",
-			"\"FIELD3\"",
-			"\"FIELD2\"",
-			"\"FIELD1\"",
-			" =",
-			"resp",
-			"n",
-			"print",
-			"‍❤️‍"
+			"\"FIELD7\""
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -700,18 +761,138 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "run.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6327,
+								6327
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+								80
+							],
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2254.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "output.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								933,
+								933
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "draw.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								409,
+								409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "StationEntrances.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 263672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98029,
+								98029
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 20676.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -738,7 +919,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 250.0
+		"height": 138.0
 	},
 	"output.find_results":
 	{
@@ -752,7 +933,7 @@
 	{
 		"height": 142.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
 	"project": "rubber.sublime-project",
 	"replace":
 	{
@@ -806,7 +987,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 134.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

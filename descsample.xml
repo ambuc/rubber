@@ -1,0 +1,29 @@
+<desc>
+	<h4>geo_arq3-7z49-1</h4>
+	<ul class="textattributes">    
+		<li>
+			<strong> <span class="atr-name"> NAME </span> : </strong>
+			<span class="atr-value">
+				W 4th St - Washington Sq (Lower)
+			</span>
+		</li>  
+		<li>
+			<strong> <span class="atr-name"> URL /span> : </strong>
+			<span class="atr-value">
+				http://www.mta.info/nyct/subway/index.html
+			</span>
+		</li>
+		<li>
+			<strong><span class="atr-name">LINE</span>:</strong>
+			<span class="atr-value">
+				B-D-F-M
+			</span>
+		</li>  
+		<li>
+			<strong><span class="atr-name">_SocrataID</span>:</strong> 
+			<span class="atr-value">
+				s74k-sme9
+			</span>
+		</li>
+	</ul>
+</desc>
